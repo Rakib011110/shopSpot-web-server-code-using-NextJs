@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use("/api/v1/", routers);
 app.get("/", (req: Request, res: Response) => {
   res.send({
-    message: "SERVER IS OK",
+    message: "SERVER IS OKsssssss",
   });
 });
 
